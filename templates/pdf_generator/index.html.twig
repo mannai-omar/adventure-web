@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); 
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: #fff;
+            margin-top: 0;
+        }
+        .detail {
+            margin-bottom: 20px;
+        }
+        .detail-label {
+            font-weight: bold;
+        }
+        .qr-code {
+            display: block;
+            margin: 0 auto;
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Booking Details</h1>
+        </div>
+        <div class="detail">
+            <span class="detail-label">Activity:</span>
+            <span>{{ activity }}</span>
+        </div>
+        <div class="detail">
+            <span class="detail-label">Reservation ID:</span>
+            <span>{{ reservationId }}</span>
+        </div>
+        <div class="detail">
+            <span class="detail-label">Date:</span>
+            <span>{{ date|date('Y-m-d') }}</span>
+        </div>
+        <div class="detail">
+            <span class="detail-label">Email:</span>
+            <span>{{ email }}</span>
+        </div>
+        <div class="detail">
+            <span class="detail-label">Tickets:</span>
+            <span>{{ nbrTickets }}</span>
+        </div>
+        <img class="qr-code" src="{{ imageSrc }}" alt="QR Code">
+    </div>
+</body>
+</html>
