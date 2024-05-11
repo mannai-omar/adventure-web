@@ -103,21 +103,25 @@
 										{% set fullStars = averageRating | round %}
 										{% set emptyStars = 5 - fullStars %}
 
-										{% for i in range(1, fullStars + 1) %}
-											<li>
-												<i class="fas fa-star"></i>
-											</li>
-										{% endfor %}
+										{%if fullStars>0%}
+											{% for i in 1..fullStars %}
+												<li>
+													<i class="fas fa-star"></i>
+												</li>
+											{% endfor %}
+										{% endif %}
 
-										{% for i in range(1, emptyStars-1 ) %}
-											<li>
-												<i class="far fa-star"></i>
-											</li>
-										{% endfor %}
+										{%if fullStars<5%}
+											{% for i in range(1, emptyStars ) %}
+												<li>
+													<i class="far fa-star"></i>
+												</li>
+											{% endfor %}
+										{% endif %} 
 
-										<li>
+										{# <li>
 											<a href="#">{{averageRating}}</a>
-										</li>
+										</li> #}
 									</ul>
 									<h4 class="title">
 										<a href="{{ path('activityController_details', {'id': activity.id}) }}">{{activity.name}}</a>
