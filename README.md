@@ -1,6 +1,6 @@
-# Adventure Platform Desktop
+# Adventure Platform Web
 ![adventure](https://github.com/mannai-omar/adventure-desktop/assets/73422595/5bbfa3dc-00c8-4bab-b983-012988486ebc)
-Welcome to the Adventure Platform Desktop repository! Adventure Platform Desktop is a multi-platform desktop application aimed at outdoor enthusiasts, providing a user-friendly interface to discover and book outdoor activities.
+Welcome to the Adventure Platform Web repository! Adventure Platform Web is a multi-platform application aimed at outdoor enthusiasts, providing a user-friendly interface to discover and book outdoor activities.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the Adventure Platform Desktop repository! Adventure Platform Desktop
 
 ## Introduction
 
-Adventure Platform Desktop is part of the Adventure Platform project, which aims to simplify the process of finding and booking outdoor activities. This desktop application allows users to browse available activities, manage reservations, and interact with the Adventure Platform ecosystem.
+Adventure Platform Web is part of the Adventure Platform project, which aims to simplify the process of finding and booking outdoor activities. This desktop application allows users to browse available activities, manage reservations, and interact with the Adventure Platform ecosystem.
 
 ## Features
 
@@ -52,9 +52,9 @@ To get started with Adventure Platform Desktop, follow these steps:
 ## Demos
 
 ### Front-end
-<img src="https://github.com/mannai-omar/adventure-web/assets/73422595/a0bfcf93-44d6-43c1-944e-52cd52f69e55" alt="Front-end Demo" width="900" height="600">
+<img src="https://github.com/mannai-omar/adventure-web/assets/73422595/a0bfcf93-44d6-43c1-944e-52cd52f69e55" alt="Front-end Demo" width="700" height="300">
 
 ### Dashboard
-<img src="https://github.com/mannai-omar/adventure-web/assets/73422595/108f4272-175f-4c22-85ee-e55733e06299" alt="Dashboard Demo" width="900" height="600">
+<img src="https://github.com/mannai-omar/adventure-web/assets/73422595/108f4272-175f-4c22-85ee-e55733e06299" alt="Dashboard Demo" width="700" height="300">
 
 
