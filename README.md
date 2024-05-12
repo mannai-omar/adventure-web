@@ -52,9 +52,9 @@ To get started with Adventure Platform Desktop, follow these steps:
 ## Demos
 
 ### Front-end
-<img src="https://github.com/mannai-omar/adventure-web/assets/73422595/a0bfcf93-44d6-43c1-944e-52cd52f69e55" alt="Front-end Demo" width="700" height="350">
+<img src="https://github.com/mannai-omar/adventure-web/assets/73422595/a0bfcf93-44d6-43c1-944e-52cd52f69e55" alt="Front-end Demo" width="700">
 
 ### Dashboard
-<img src="https://github.com/mannai-omar/adventure-web/assets/73422595/108f4272-175f-4c22-85ee-e55733e06299" alt="Dashboard Demo" width="700" height="350">
+<img src="https://github.com/mannai-omar/adventure-web/assets/73422595/108f4272-175f-4c22-85ee-e55733e06299" alt="Dashboard Demo" width="700">
 
 
