@@ -8,9 +8,7 @@ Welcome to the Adventure Platform Web repository! Adventure Platform Web is a mu
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demos](#demos)
 
 ## Introduction
 
